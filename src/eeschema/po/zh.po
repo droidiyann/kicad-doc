@@ -5,9 +5,9 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Eeschema_zh_CN_v0.3.1\n"
-"POT-Creation-Date: 2019-03-09 23:19+0800\n"
-"PO-Revision-Date: 2019-04-11 01:11+0800\n"
+"Project-Id-Version: Eeschema_zh_CN_v0.4.1\n"
+"POT-Creation-Date: 2019-08-03 23:19+0800\n"
+"PO-Revision-Date: 2019-08-04 00:21+0800\n"
 "Last-Translator: taotieren <admin@taotieren.com>\n"
 "Language-Team: \n"
 "Language: zh\n"
@@ -481,232 +481,12 @@ msgstr "images/print_dialog.png"
 #. type: Plain text
 #: eeschema_plot_and_print.adoc:116
 msgid "The \"Print sheet reference and title block\" option enables or disables sheet references and title block."
-msgstr " “打印表格参考和标题栏” 选项可启用或禁用图纸参考和标题栏。"
+msgstr "“打印表格参考和标题栏” 选项可启用或禁用图纸参考和标题栏。"
 
 #. type: Plain text
 #: eeschema_plot_and_print.adoc:120
 msgid "The \"Print in black and white\" option sets printing in monochrome. This option is generally necessary if you use a black and white laser printer, because colors are printed into half-tones that are often not so readable."
-msgstr " “黑白打印” 选项设置单色打印。 如果使用黑白激光打印机，通常需要此选项，因为颜色打印成半色调，通常不太可读。"
-
-#. type: Title ==
-#: eeschema_automatic_classification_annotation.adoc:3
-#, no-wrap
-msgid "Symbol Annotation Tool"
-msgstr "符号注释工具"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:13
-msgid "The annotation tool allows you to automatically assign a designator to symbols in your schematic. Annotation of symbols with multiple units will assign a unique suffix to minimize the number of these symbols.  The annotation tool is accessible via the icon image:images/icons/annotate.png[icons_annotate_png].  Here you find its main window."
-msgstr "注释工具允许您自动为原理图中的符号指定一个指示符。具有多个单位的符号的注释将分配一个唯一的后缀, 以最大限度地减少这些符号的数量。 注释工具可通过图标图像访问: image:images/icons/annotate.png [icons_annotate_png]。 在这里, 你可以找到它的主窗口。"
-
-#. type: Named 'alt' AttributeList argument for macro 'image'
-#: eeschema_automatic_classification_annotation.adoc:14 eeschema_general_top_toolbar.adoc:96
-#, no-wrap
-msgid "annotate-dialog_img"
-msgstr "annotate-dialog_img"
-
-#. type: Target for macro image
-#: eeschema_automatic_classification_annotation.adoc:14 eeschema_general_top_toolbar.adoc:96
-#, no-wrap
-msgid "images/en/annotate-dialog.png"
-msgstr "images/zh/annotate-dialog.png"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:17
-msgid "Available annotation schemes:"
-msgstr "可用的注释方案:"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:19
-msgid "Annotate all the symbols (reset existing annotation option)"
-msgstr "注释所有符号 (重置现有注释选项)"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:21
-msgid "Annotate all the symbols, but do not swap any previously annotated multi-unit parts."
-msgstr "注释所有符号, 但不要交换任何以前批注的多单位部件。"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:23
-msgid "Annotate only symbols that are currently not annotated.  Symbols that are not annotated will have a designator which ends with a '?' character."
-msgstr "仅注释当前未注释的符号。 未批注的符号将具有以 \"？\" 字符结尾的指示符。"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:24
-msgid "Annotate the whole hierarchy (use the entire schematic option)."
-msgstr "注释整个层次结构 (使用整个原理图选项)。"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:25
-msgid "Annotate the current sheet only (use current page only option)."
-msgstr "仅注释当前工作表 (仅使用当前页选项)。"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:31
-msgid ""
-"The ``Reset, but do not swap any annotated multi-unit parts'' option keeps all existing associations between symbols with multilple units. For example, U2A and U2B may be reannotated to U1A and U1B respectively but they will never be reannotated to U1A and U2A, nor to U2B and U2A. This is useful if you want to ensure that pin groupings are "
-"maintained."
-msgstr "“重置, 但不交换任何带注释的多单元部件” 选项保留具有多单元的符号之间的所有现有关联。例如, U22 和 U2A 可能分别重新注释为 U1B 和 U1B, 但它们永远不会重新注释到 U1B 和 U2A, 也不会重新注释为 U2B 和 U2A。如果要确保保持引脚分组, 这很有用。"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:34
-msgid "The annotation order choice gives the method used to set the reference number inside each sheet of the hierarchy."
-msgstr "注释顺序选择提供了用于在层次结构的每个工作表内设置参考编号的方法。"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:38
-msgid "Except for particular cases, an automatic annotation applies to the whole project (all sheets) and to the new components, if you don't want to modify previous annotations."
-msgstr "除特定情况外, 如果您不想修改以前的批注, 则自动批注将应用于整个项目 (所有工作表) 和新元件。"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:40
-msgid "The Annotation Choice gives the method used to calculate reference:"
-msgstr "“注释选择” 给出了用于计算参考的方法:"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:44
-msgid "Use first free number in schematic: components are annotated from 1 (for each reference prefix). If a previous annotation exists, only unused numbers will be used."
-msgstr "在原理图中使用第一个空闲编号：元件从1开始注释（对于每个引用前缀）。 如果存在先前的注释，则仅使用未使用的数字。"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:49
-msgid "Start to sheet number*100 and use first free number: annotation start from 101 for the sheet 1, from 201 for the sheet 2, etc. If there are more than 99 items having the same reference prefix (U, R) inside the sheet 1, the annotation tool uses the number 200 and more, and annotation for sheet 2 will start from the next free number."
-msgstr "从纸张编号 *100开始并使用第一个空闲编号：从纸张1的101开始注释，从纸张2的201开始，等等。如果在工作表内有超过99个具有相同参考前缀（U，R）的项目 在图1中，注释工具使用数字200和更多，并且工作表2的注释将从下一个空闲编号开始。"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:51
-msgid "Start to sheet number*1000 and use first free number. Annotation start from 1001 for the sheet 1, from 2001 for the sheet 2."
-msgstr "从表格编号 *1000开始并使用第一个空闲编号。 对于纸张1，注释从1001开始，从纸张2的2001开始。"
-
-#. type: Title ===
-#: eeschema_automatic_classification_annotation.adoc:53
-#, no-wrap
-msgid "Some examples"
-msgstr "一些例子"
-
-#. type: Title ====
-#: eeschema_automatic_classification_annotation.adoc:56
-#, no-wrap
-msgid "Annotation order"
-msgstr "注释顺序"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:59
-msgid "This example shows 5 elements placed, but not annotated."
-msgstr "此示例显示放置了5个元素，但未注释。"
-
-#. type: Named 'alt' AttributeList argument for macro 'image'
-#: eeschema_automatic_classification_annotation.adoc:60
-#, no-wrap
-msgid "eeschema_annotation_order_none_png"
-msgstr "eeschema_annotation_order_none_png"
-
-#. type: Target for macro image
-#: eeschema_automatic_classification_annotation.adoc:60
-#, no-wrap
-msgid "images/eeschema_annotation_order_none.png"
-msgstr "images/eeschema_annotation_order_none.png"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:63
-msgid "After the annotation tool Is executed, the following result is obtained."
-msgstr "执行注释工具后，获得以下结果。"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:65
-msgid "Sort by X position."
-msgstr "按 X 位置排序。"
-
-#. type: Named 'alt' AttributeList argument for macro 'image'
-#: eeschema_automatic_classification_annotation.adoc:66
-#, no-wrap
-msgid "eeschema_annotation_order_x_png"
-msgstr "eeschema_annotation_order_x_png"
-
-#. type: Target for macro image
-#: eeschema_automatic_classification_annotation.adoc:66
-#, no-wrap
-msgid "images/eeschema_annotation_order_x.png"
-msgstr "images/eeschema_annotation_order_x.png"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:69
-msgid "Sort by Y position."
-msgstr "按 Y 位置排序。"
-
-#. type: Named 'alt' AttributeList argument for macro 'image'
-#: eeschema_automatic_classification_annotation.adoc:70
-#, no-wrap
-msgid "eeschema_annotation_order_y_png"
-msgstr "eeschema_annotation_order_y_png"
-
-#. type: Target for macro image
-#: eeschema_automatic_classification_annotation.adoc:70
-#, no-wrap
-msgid "images/eeschema_annotation_order_y.png"
-msgstr "images/eeschema_annotation_order_y.png"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:74
-msgid "You can see that four 74LS00 gates were distributed in U1 package, and that the fifth 74LS00 has been assigned to the next, U2."
-msgstr "您可以看到四个 74LS00 门分布在 U1 包中，第五个 74LS00 已分配给下一个 U2。"
-
-#. type: Title ====
-#: eeschema_automatic_classification_annotation.adoc:76
-#, no-wrap
-msgid "Annotation Choice"
-msgstr "注释选择"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:80
-msgid "Here is an annotation in sheet 2 where the option use first free number in schematic was set."
-msgstr "这是表2中的注释，其中选项使用原理图中的第一个空闲编号。"
-
-#. type: Named 'alt' AttributeList argument for macro 'image'
-#: eeschema_automatic_classification_annotation.adoc:81
-#, no-wrap
-msgid "eeschema_annotation_choice_free_png"
-msgstr "eeschema_annotation_choice_free_png"
-
-#. type: Target for macro image
-#: eeschema_automatic_classification_annotation.adoc:81
-#, no-wrap
-msgid "images/eeschema_annotation_choice_free.png"
-msgstr "images/eeschema_annotation_choice_free.png"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:85
-msgid "Option start to sheet number*100 and use first free number give the following result."
-msgstr "选项开始到工作表编号 *100并使用第一个空闲编号给出以下结果。"
-
-#. type: Named 'alt' AttributeList argument for macro 'image'
-#: eeschema_automatic_classification_annotation.adoc:86
-#, no-wrap
-msgid "eeschema_annotation_choice_x100_png"
-msgstr "eeschema_annotation_choice_x100_png"
-
-#. type: Target for macro image
-#: eeschema_automatic_classification_annotation.adoc:86
-#, no-wrap
-msgid "images/eeschema_annotation_choice_x100.png"
-msgstr "images/eeschema_annotation_choice_x100.png"
-
-#. type: Plain text
-#: eeschema_automatic_classification_annotation.adoc:90
-msgid "The option start to sheet number*1000 and use first free number gives the following result."
-msgstr "选项开始到工作表编号 *1000并使用第一个空闲编号给出以下结果。"
-
-#. type: Named 'alt' AttributeList argument for macro 'image'
-#: eeschema_automatic_classification_annotation.adoc:91
-#, no-wrap
-msgid "eeschema_annotation_choice_x1000_png"
-msgstr "eeschema_annotation_choice_x1000_png"
-
-#. type: Target for macro image
-#: eeschema_automatic_classification_annotation.adoc:91
-#, no-wrap
-msgid "images/eeschema_annotation_choice_x1000.png"
-msgstr "images/eeschema_annotation_choice_x1000.png"
+msgstr "“黑白打印” 选项设置单色打印。 如果使用黑白激光打印机，通常需要此选项，因为颜色打印成半色调，通常不太可读。"
 
 #. type: Title ==
 #: eeschema_create_a_netlist.adoc:3
@@ -994,7 +774,7 @@ msgstr "在 PSPICE 格式中，网表如下："
 #: eeschema_create_a_netlist.adoc:129
 #, no-wrap
 msgid "* Eeschema Netlist Version 1.1 (Spice format) creation date: 18/6/2008-08:38:03\n"
-msgstr "* Eeschema Netlist Version 1.1 (Spice format) creation date: 18/6/2008-08:38:03\n"
+msgstr "* Eeschema 网表 1.1 版(Spice 格式)创建日期：18/6/2008-08:38:03\n"
 
 #. type: delimited block -
 #: eeschema_create_a_netlist.adoc:133
@@ -1391,7 +1171,7 @@ msgid "Page Settings"
 msgstr "页面设置"
 
 #. type: Target for macro image
-#: eeschema_general_top_toolbar.adoc:13 eeschema_schematic_creation_and_editing.adoc:374
+#: eeschema_general_top_toolbar.adoc:13 eeschema_schematic_creation_and_editing.adoc:444
 #, no-wrap
 msgid "images/en/page_settings.png"
 msgstr "images/zh/page_settings.png"
@@ -1536,6 +1316,18 @@ msgstr "对于多部件元件（例如包含4个门的 7400 TTL），还分配�
 #: eeschema_general_top_toolbar.adoc:95
 msgid "You can unconditionally annotate all the components or only the new components, i.e. those which were not previously annotated."
 msgstr "您可以无条件地注释所有元件或仅注释新元件，即之前未注释的元件。"
+
+#. type: Named 'alt' AttributeList argument for macro 'image'
+#: eeschema_general_top_toolbar.adoc:96 eeschema_automatic_classification_annotation.adoc:14
+#, no-wrap
+msgid "annotate-dialog_img"
+msgstr "annotate-dialog_img"
+
+#. type: Target for macro image
+#: eeschema_general_top_toolbar.adoc:96 eeschema_automatic_classification_annotation.adoc:14
+#, no-wrap
+msgid "images/en/annotate-dialog.png"
+msgstr "images/zh/annotate-dialog.png"
 
 #. type: Plain text
 #: eeschema_general_top_toolbar.adoc:99
@@ -1959,6 +1751,214 @@ msgid "This tool allows footprint changes made in PcbNew to be imported back int
 msgstr "此工具允许将 PcbNew 中创建的封装更改导入 Eeschema 中的封装字段。"
 
 #. type: Title ==
+#: eeschema_automatic_classification_annotation.adoc:3
+#, no-wrap
+msgid "Symbol Annotation Tool"
+msgstr "符号注释工具"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:13
+msgid "The annotation tool allows you to automatically assign a designator to symbols in your schematic. Annotation of symbols with multiple units will assign a unique suffix to minimize the number of these symbols.  The annotation tool is accessible via the icon image:images/icons/annotate.png[icons_annotate_png].  Here you find its main window."
+msgstr "注释工具允许您自动为原理图中的符号指定一个指示符。具有多个单位的符号的注释将分配一个唯一的后缀, 以最大限度地减少这些符号的数量。  注释工具可通过图标图像访问: image:images/icons/annotate.png [icons_annotate_png]。  在这里, 你可以找到它的主窗口。"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:17
+msgid "Available annotation schemes:"
+msgstr "可用的注释方案:"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:19
+msgid "Annotate all the symbols (reset existing annotation option)"
+msgstr "注释所有符号 (重置现有注释选项)"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:21
+msgid "Annotate all the symbols, but do not swap any previously annotated multi-unit parts."
+msgstr "注释所有符号, 但不要交换任何以前批注的多单元元件。"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:23
+msgid "Annotate only symbols that are currently not annotated.  Symbols that are not annotated will have a designator which ends with a '?' character."
+msgstr "仅注释当前未注释的符号。 未批注的符号将具有以 \"？\" 字符结尾的指示符。"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:24
+msgid "Annotate the whole hierarchy (use the entire schematic option)."
+msgstr "注释整个层次结构 (使用整个原理图选项)。"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:25
+msgid "Annotate the current sheet only (use current page only option)."
+msgstr "仅注释当前工作表 (仅使用当前页选项)。"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:31
+msgid ""
+"The ``Reset, but do not swap any annotated multi-unit parts'' option keeps all existing associations between symbols with multilple units. For example, U2A and U2B may be reannotated to U1A and U1B respectively but they will never be reannotated to U1A and U2A, nor to U2B and U2A. This is useful if you want to ensure that pin groupings are "
+"maintained."
+msgstr "“重置, 但不交换任何带注释的多单元部件” 选项保留具有多单元的符号之间的所有现有关联。例如, U22 和 U2A 可能分别重新注释为 U1B 和 U1B, 但它们永远不会重新注释到 U1B 和 U2A, 也不会重新注释为 U2B 和 U2A。如果要确保保持引脚分组, 这很有用。"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:34
+msgid "The annotation order choice gives the method used to set the reference number inside each sheet of the hierarchy."
+msgstr "注释顺序选择提供了用于在层次结构的每个工作表内设置参考编号的方法。"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:38
+msgid "Except for particular cases, an automatic annotation applies to the whole project (all sheets) and to the new components, if you don't want to modify previous annotations."
+msgstr "除特定情况外, 如果您不想修改以前的批注, 则自动批注将应用于整个项目 (所有工作表) 和新元件。"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:40
+msgid "The Annotation Choice gives the method used to calculate reference:"
+msgstr "“注释选择” 给出了用于计算参考的方法:"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:44
+msgid "Use first free number in schematic: components are annotated from 1 (for each reference prefix). If a previous annotation exists, only unused numbers will be used."
+msgstr "在原理图中使用第一个空闲编号：元件从1开始注释（对于每个引用前缀）。 如果存在先前的注释，则仅使用未使用的数字。"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:49
+msgid "Start to sheet number*100 and use first free number: annotation start from 101 for the sheet 1, from 201 for the sheet 2, etc. If there are more than 99 items having the same reference prefix (U, R) inside the sheet 1, the annotation tool uses the number 200 and more, and annotation for sheet 2 will start from the next free number."
+msgstr "从纸张编号 *100开始并使用第一个空闲编号：从纸张1的101开始注释，从纸张2的201开始，等等。如果在工作表内有超过99个具有相同参考前缀（U，R）的项目 在图1中，注释工具使用数字200和更多，并且工作表2的注释将从下一个空闲编号开始。"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:51
+msgid "Start to sheet number*1000 and use first free number. Annotation start from 1001 for the sheet 1, from 2001 for the sheet 2."
+msgstr "从表格编号 *1000开始并使用第一个空闲编号。 对于纸张1，注释从1001开始，从纸张2的2001开始。"
+
+#. type: Title ===
+#: eeschema_automatic_classification_annotation.adoc:53
+#, no-wrap
+msgid "Some examples"
+msgstr "一些例子"
+
+#. type: Title ====
+#: eeschema_automatic_classification_annotation.adoc:56
+#, no-wrap
+msgid "Annotation order"
+msgstr "注释顺序"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:59
+msgid "This example shows 5 elements placed, but not annotated."
+msgstr "此示例显示放置了5个元素，但未注释。"
+
+#. type: Named 'alt' AttributeList argument for macro 'image'
+#: eeschema_automatic_classification_annotation.adoc:60
+#, no-wrap
+msgid "eeschema_annotation_order_none_png"
+msgstr "eeschema_annotation_order_none_png"
+
+#. type: Target for macro image
+#: eeschema_automatic_classification_annotation.adoc:60
+#, no-wrap
+msgid "images/eeschema_annotation_order_none.png"
+msgstr "images/eeschema_annotation_order_none.png"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:63
+msgid "After the annotation tool Is executed, the following result is obtained."
+msgstr "执行注释工具后，获得以下结果。"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:65
+msgid "Sort by X position."
+msgstr "按 X 位置排序。"
+
+#. type: Named 'alt' AttributeList argument for macro 'image'
+#: eeschema_automatic_classification_annotation.adoc:66
+#, no-wrap
+msgid "eeschema_annotation_order_x_png"
+msgstr "eeschema_annotation_order_x_png"
+
+#. type: Target for macro image
+#: eeschema_automatic_classification_annotation.adoc:66
+#, no-wrap
+msgid "images/eeschema_annotation_order_x.png"
+msgstr "images/eeschema_annotation_order_x.png"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:69
+msgid "Sort by Y position."
+msgstr "按 Y 位置排序。"
+
+#. type: Named 'alt' AttributeList argument for macro 'image'
+#: eeschema_automatic_classification_annotation.adoc:70
+#, no-wrap
+msgid "eeschema_annotation_order_y_png"
+msgstr "eeschema_annotation_order_y_png"
+
+#. type: Target for macro image
+#: eeschema_automatic_classification_annotation.adoc:70
+#, no-wrap
+msgid "images/eeschema_annotation_order_y.png"
+msgstr "images/eeschema_annotation_order_y.png"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:74
+msgid "You can see that four 74LS00 gates were distributed in U1 package, and that the fifth 74LS00 has been assigned to the next, U2."
+msgstr "您可以看到四个 74LS00 门分布在 U1 包中，第五个 74LS00 已分配给下一个 U2。"
+
+#. type: Title ====
+#: eeschema_automatic_classification_annotation.adoc:76
+#, no-wrap
+msgid "Annotation Choice"
+msgstr "注释选择"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:80
+msgid "Here is an annotation in sheet 2 where the option use first free number in schematic was set."
+msgstr "这是表2中的注释，其中选项使用原理图中的第一个空闲编号。"
+
+#. type: Named 'alt' AttributeList argument for macro 'image'
+#: eeschema_automatic_classification_annotation.adoc:81
+#, no-wrap
+msgid "eeschema_annotation_choice_free_png"
+msgstr "eeschema_annotation_choice_free_png"
+
+#. type: Target for macro image
+#: eeschema_automatic_classification_annotation.adoc:81
+#, no-wrap
+msgid "images/eeschema_annotation_choice_free.png"
+msgstr "images/eeschema_annotation_choice_free.png"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:85
+msgid "Option start to sheet number*100 and use first free number give the following result."
+msgstr "选项开始到工作表编号 *100并使用第一个空闲编号给出以下结果。"
+
+#. type: Named 'alt' AttributeList argument for macro 'image'
+#: eeschema_automatic_classification_annotation.adoc:86
+#, no-wrap
+msgid "eeschema_annotation_choice_x100_png"
+msgstr "eeschema_annotation_choice_x100_png"
+
+#. type: Target for macro image
+#: eeschema_automatic_classification_annotation.adoc:86
+#, no-wrap
+msgid "images/eeschema_annotation_choice_x100.png"
+msgstr "images/eeschema_annotation_choice_x100.png"
+
+#. type: Plain text
+#: eeschema_automatic_classification_annotation.adoc:90
+msgid "The option start to sheet number*1000 and use first free number gives the following result."
+msgstr "选项开始到工作表编号 *1000并使用第一个空闲编号给出以下结果。"
+
+#. type: Named 'alt' AttributeList argument for macro 'image'
+#: eeschema_automatic_classification_annotation.adoc:91
+#, no-wrap
+msgid "eeschema_annotation_choice_x1000_png"
+msgstr "eeschema_annotation_choice_x1000_png"
+
+#. type: Target for macro image
+#: eeschema_automatic_classification_annotation.adoc:91
+#, no-wrap
+msgid "images/eeschema_annotation_choice_x1000.png"
+msgstr "images/eeschema_annotation_choice_x1000.png"
+
+#. type: Title ==
 #: eeschema_generic_commands.adoc:2
 #, no-wrap
 msgid "Generic Eeschema commands"
@@ -2270,13 +2270,13 @@ msgstr "可以使用热键编辑器重新定义所有热键（菜单首选项 ->
 #. type: Plain text
 #: eeschema_generic_commands.adoc:141
 msgid "It is possible to import/export hotkey settings using menu Preferences->Import and Export->Import/Export Hotkeys."
-msgstr "可以使用菜单 (首选项 ->导入和导出 ->导入/导出热键) 导入/导出热键设置。"
+msgstr "可以使用菜单 (首选项 -> 导入和导出 -> 导入/导出热键) 导入/导出热键设置。"
 
 #. type: Title ===
 #: eeschema_generic_commands.adoc:142
 #, no-wrap
 msgid "Grid"
-msgstr "网格"
+msgstr "格点"
 
 #. type: Plain text
 #: eeschema_generic_commands.adoc:145
@@ -2727,8 +2727,8 @@ msgstr ""
 "\n"
 "|image:images/icons/net_highlight_schematic.png[Highlight net icon]\n"
 "|通过使用不同颜色标记其电线和网络标签来突出显示网络。\n"
-"如果 KiCad 以项目模式运行，那么对应于所选网络的铜将\n"
-"在Pcbnew中也会突出显示。\n"
+"如果 KiCad 以工程模式运行，那么对应于所选网络的铜将\n"
+"在 Pcbnew 中也会高亮。\n"
 "\n"
 "|image:images/icons/new_symbol.png[New Symbol icon]\n"
 "|显示符号选择器对话框以选择要放置的新符号。\n"
@@ -2753,7 +2753,7 @@ msgstr ""
 "|放置“无连接”标志。这些标志应放在符号引脚上\n"
 "意味着没有连接。这样做是为了通知电气规则\n"
 "检查器特定引脚缺少连接是故意的，应该\n"
-"不报道。\n"
+"不报告。\n"
 "\n"
 "|image:images/icons/add_junction.png[icons/add_junction_png]\n"
 "|放置一个交叉点。这连接两根交叉线或一根线和一个引脚，\n"
@@ -3122,7 +3122,7 @@ msgstr "符号字段"
 #. type: Plain text
 #: eeschema_libedit.adoc:105
 msgid "The field editor is called via the icon image:images/icons/text.png[icons/text.png]."
-msgstr "通过图标图像调用字段编辑器： image:images/icons/text.png[icons/text_png] 。"
+msgstr "字段编辑器通过图标调用： image:images/icons/text.png[icons/text_png] 。"
 
 #. type: Plain text
 #: eeschema_libedit.adoc:108
@@ -3175,7 +3175,7 @@ msgstr "符号文档"
 #. type: Plain text
 #: eeschema_libedit.adoc:128
 msgid "To edit documentation information, it is necessary to call the main editing window of the symbol via the icon image:images/icons/part_properties.png[icons/part_properties_png] and to select the document folder."
-msgstr "要编辑文档信息，需要通过图标 image:images/icons/part_properties.png[icons/part_properties_png] 调用符号的主编辑窗口，然后选择文档文件夹。"
+msgstr "要编辑文档信息，需要通过图标 image:images/icons/part_properties.png[icons/part_properties_png] 调用符号的主编辑窗口，并选择文档文件夹。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_libedit.adoc:129
@@ -3348,7 +3348,7 @@ msgstr "符号库"
 #. type: Plain text
 #: eeschema_libedit.adoc:208
 msgid "You can easily compile a graphic symbols library file containing frequently used symbols. This can be used for the creation of symbols (triangles, the shape of AND, OR, Exclusive OR gates, etc.) for saving and subsequent re-use."
-msgstr "您可以轻松编译包含常用符号的图形符号库文件。 这可以用于创建符号（三角形，AND，OR，异或门等的形状）以用于保存和随后的重复使用。"
+msgstr "您可以轻松编译包含常用符号的图形符号库文件。 这可以用于创建符号（三角形，与，或，异或门等的形状）以用于保存和随后的重复使用。"
 
 #. type: Plain text
 #: eeschema_libedit.adoc:212
@@ -3364,7 +3364,7 @@ msgstr "导出或创建符号"
 #. type: Plain text
 #: eeschema_libedit.adoc:220
 msgid "A symbol can be exported with the button image:images/icons/export.png[icons/export_png].  You can generally create only one graphic, also it will be a good idea to delete all pins, if they exist."
-msgstr "可以使用按钮图像导出符号： image:images/icons/export.png[icons/export_png] 。 您通常只能创建一个图形，删除所有引脚（如果存在）也是一个好主意。"
+msgstr "可以使用按钮图像导出符号： image:images/icons/export.png[icons/export_png]。  您通常只能创建一个图形，删除所有引脚（如果存在）也是一个好主意。"
 
 #. type: Title ====
 #: eeschema_libedit.adoc:222
@@ -3412,7 +3412,7 @@ msgstr "验证一组规则（ERC，电气规则检查）以检测错误和遗漏
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:25
 msgid "Automatically generating a bill of materials (<<creating-customized-netlists-and-bom-files,BOM>>)."
-msgstr "自动生成物料清单（创建 - 自定义网表和文件夹，BOM）。"
+msgstr "自动生成物料清单（<<creating-customized-netlists-and-bom-files（创建-自定义-网表-和-文件夹）,BOM>>）。"
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:26
@@ -3967,7 +3967,7 @@ msgstr "水平步骤。"
 #. type: delimited block =
 #: eeschema_schematic_creation_and_editing.adoc:297
 msgid "Label increment (which can thus be incremented by 2, 3. or decremented)."
-msgstr "标签增量（因此可以递增2,3或递减）。"
+msgstr "标签增量（因此可以递增 2,3 或递减）。"
 
 #. type: Title =====
 #: eeschema_schematic_creation_and_editing.adoc:300
@@ -4001,7 +4001,7 @@ msgstr "总线别名是一种快捷方式，可让您更有效地使用大型组
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:322
 msgid "To create bus aliases, open the `Bus Definitions` dialog in the `Tools` menu."
-msgstr "要创建总线别名，请在“工具”菜单中打开“总线定义”对话框。"
+msgstr "要创建总线别名，请在 “工具” 菜单中打开 “总线定义” 对话框。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_schematic_creation_and_editing.adoc:323
@@ -4177,7 +4177,7 @@ msgstr "文本注释"
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:433
 msgid "It can be useful (to aid in understanding the schematic) to place annotations such as text fields and frames. Text fields (tool image:images/icons/text.png[])  and Polyline (tool image:images/icons/add_dashed_line.png[])  are intended for this use, contrary to labels and wires, which are connection elements."
-msgstr "放置注释，如文本字段和框架。 文本字段（工具 image:images/icons/text.png[文本] ）和折线（工具 image:images/icons/add_dashed_line.png[] ）旨在用于此用途，与作为连接元素的标签和电线相反。"
+msgstr "放置注释(例如文本字段和框架)可能很有用(有助于理解原理图)。文本字段(工具 image:images/icons/text.png[])和多段线(工具 image:images/icons/add_dashed_line.png[])用于此用途，而标签和导线是连接元素。"
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:435
@@ -4247,12 +4247,12 @@ msgid ""
 "The new versions might not line up correctly or might be oriented differently leading to a\n"
 " broken schematic.\n"
 msgstr ""
-"默认情况下，Eeschema 根据设置的路径和项目库加载符号\n"
-"图书馆订单。 加载一个非常旧的项目时，这可能会导致问题：如果符号中的符号\n"
-"库已更改或已被删除或库已不再存在，因为它们已被使用\n"
+"默认情况下，Eeschema 根据设置的路径和从项目库加载符号\n"
+"库顺序。这在加载非常旧的项目时可能会导致问题：如果\n"
+"库已更改或已被删除，或者库自使用后已不存在。\n"
 "在项目中，项目中的项目将自动替换为新版本。\n"
-"新版本可能无法正确排列，或者可能采用不同的方式导致一个\n"
-" 原理图破碎。\n"
+"新版本可能没有正确对齐，或者可能方向不同，导致出现。\n"
+"破损的原理图。\n"
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:465
@@ -4265,7 +4265,7 @@ msgstr "保存项目时，将包含具有当前库符号内容的缓存库以及
 #: eeschema_schematic_creation_and_editing.adoc:466
 #, no-wrap
 msgid "Rescue conflicts dialog"
-msgstr "救援冲突对话框"
+msgstr "恢复冲突对话框"
 
 #. type: Target for macro image
 #: eeschema_schematic_creation_and_editing.adoc:466
@@ -4278,14 +4278,14 @@ msgstr "images/zh/rescue-conflicts.png"
 msgid ""
 "You can see in this example that the project originally used a diode with the cathode facing up, but the library now contains one with the cathode facing down. This change would break the schematic! Pressing OK here will cause the symbol cache library to be saved into a special ``rescue'' library and all the symbols are renamed to avoid naming "
 "conflicts."
-msgstr "您可以在此示例中看到该项目最初使用的是阴极朝上的二极管，但现在库中包含阴极朝下的二极管。 这种改变会打破原理图！ 在此处按 OK 将使符号缓存库保存到特殊的 _救援_ 库中，并重命名所有符号以避免命名冲突。"
+msgstr "您可以在此示例中看到该项目最初使用的是阴极朝上的二极管，但现在库中包含阴极朝下的二极管。 这种改变会打破原理图！ 在此处按 OK 将使符号缓存库保存到特殊的 _恢复_ 库中，并重命名所有符号以避免命名冲突。"
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:478
 msgid ""
 "If you press Cancel, no rescues will be made, so Eeschema will load all the new components by default. If you save the schematic at this point, your cache will be overwritten and the old symbols will not be recoverable.  If you have saved the schematic, you can still go back and run the rescue function again by selecting \"Rescue Cached Components"
 "\" in the \"Tools\" menu to call up the rescue dialog again."
-msgstr "如果按 _取消_ ，则不会进行任何救援，因此 Eeschema 默认会加载所有新元件。 如果此时保存原理图，则将覆盖缓存并且旧符号将无法恢复。 如果已保存原理图，则仍可以通过选择 “工具” 菜单中的 “救援缓存元件” 再次调用救援对话框，再次运行救援功能。"
+msgstr "如果按 _取消_ ，则不会进行任何恢复，因此 Eeschema 默认会加载所有新元件。 如果此时保存原理图，则将覆盖缓存并且旧符号将无法恢复。 如果已保存原理图，则仍可以通过选择 “工具” 菜单中的 “恢复缓存元件” 再次调用恢复对话框，再次运行恢复功能。"
 
 #. type: Plain text
 #: eeschema_schematic_creation_and_editing.adoc:481
@@ -5434,7 +5434,7 @@ msgstr "原理图中使用的原始库仍然可用，并且在符号添加到原
 #. type: Plain text
 #: eeschema_symbol_library_table.adoc:152
 msgid "all rescue operations were performed when detected to create a rescue library or keep the existing rescue library up to date."
-msgstr "在检测到所有救援行动时，执行所有救援行动以创建救援库或使现有救援库保持最新状态。"
+msgstr "在检测到所有恢复行动时，执行所有恢复行动以创建恢复库或使现有恢复库保持最新状态。"
 
 #. type: Plain text
 #: eeschema_symbol_library_table.adoc:155
@@ -5449,12 +5449,12 @@ msgstr "重新映射将备份在重新映射期间在项目文件夹中的 rescu
 #. type: delimited block =
 #: eeschema_symbol_library_table.adoc:171
 msgid "The rescue operation is performed even if it has been disabled to ensure the correct symbols are available for remapping.  Do not cancel this operation or the remapping will fail to correctly remap schematics symbols.  Any broken symbol links will have to be fixed manually."
-msgstr "即使已禁用救援操作以执行救援操作以确保正确的符号可用于重新映射。 请勿取消此操作，否则重映射将无法正确重新映射原理图符号。 任何损坏的符号链接都必须手动修复。"
+msgstr "即使已禁用恢复操作以执行恢复操作以确保正确的符号可用于重新映射。 请勿取消此操作，否则重映射将无法正确重新映射原理图符号。 任何损坏的符号链接都必须手动修复。"
 
 #. type: delimited block =
 #: eeschema_symbol_library_table.adoc:180
 msgid "If the original libraries have been removed and the rescue was not performed, the cache library can be used as a recovery library as a last resort. Copy the cache library to a new file name and add the new library file to the top of the library list using a version of Eeschema prior to the symbol library table implementation."
-msgstr "如果已删除原始库并且未执行救援，则可以将缓存库用作恢复库作为最后的手段。 将缓存库复制到新文件名，并在符号库表实现之前使用Eeschema版本将新库文件添加到库列表的顶部。"
+msgstr "如果已删除原始库并且未执行恢复，则可以将缓存库用作恢复库作为最后的手段。 将缓存库复制到新文件名，并在符号库表实现之前使用Eeschema版本将新库文件添加到库列表的顶部。"
 
 #. type: Title ==
 #: eeschema_main_top_menu.adoc:3
@@ -6271,7 +6271,7 @@ msgstr "*自动放置：*\n"
 #. type: Plain text
 #: eeschema_hierarchical_schematics.adoc:177
 msgid "Select the tool image:images/icons/import_hierarchical_label.png[icons/import_hierarchical_label_png]."
-msgstr "选择工具 image:images/icons/import_hierarchical_label.png[icons/import_hierarchical_label_png] 。"
+msgstr "选择工具image:images/icons/import_hierarchical_label.png[icons/import_hierarchical_label_png] 。"
 
 #. type: Plain text
 #: eeschema_hierarchical_schematics.adoc:181
@@ -7107,7 +7107,7 @@ msgstr "修改后，符号可以保存在当前库中，新库中，也可以导
 #. type: Plain text
 #: eeschema_library_editor.adoc:306
 msgid "To save the modified symbol in the current library, click the image:images/icons/save_part_in_mem.png[icons/save_part_in_mem_png].  Please note that the update command only saves the symbol changes in the local memory. This way, you can make up your mind before you save the library."
-msgstr "要将修改后的符号保存在当前库中，请单击 image:images/icons/save_part_in_mem.png[icons/save_part_in_mem_png] 。 请注意，更新命令仅将符号更改保存在本地内存中。 这样，您可以在保存库之前下定决心。"
+msgstr "要将修改后的符号保存在当前库中，请单击 image:images/icons/save_part_in_mem.png[icons/save_part_in_mem_png]。  请注意，更新命令仅将符号更改保存在本地内存中。 这样，您可以在恢复库之前做出决定。"
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:311
@@ -7117,7 +7117,7 @@ msgstr "要将符号更改永久保存到库文件，请单击 image:images/icon
 #. type: Plain text
 #: eeschema_library_editor.adoc:316
 msgid "If you want to create a new library containing the current symbol, click the image:images/icons/new_library.png[icons/new_library_png].  You will be asked to enter a new library name."
-msgstr "如果要创建包含当前符号的新库，请单击 image:images/icons/new_library.png[icons/new_library_png] 。 系统将要求您输入新的库名称。"
+msgstr "如果要创建包含当前符号的新库，请单击 image:images/icons/new_library.png[icons/new_library_png]。 系统将要求您输入新的库名称。"
 
 #. type: delimited block =
 #: eeschema_library_editor.adoc:320
@@ -7148,7 +7148,7 @@ msgstr "您可以使用以下命令很容易地将符号从源库复制到目标
 #. type: Plain text
 #: eeschema_library_editor.adoc:341
 msgid "Select the source library by clicking the image:images/icons/library.png[icons/library_png]."
-msgstr "单击图像选择源库：image:images/icons/library.png[icons/library_png] 。"
+msgstr "单击图像选择源库：image:images/icons/library.png[icons/library_png]。"
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:344
@@ -7269,7 +7269,7 @@ msgstr "根据需要编辑新符号。"
 msgid ""
 "Update the new symbol in the current library by clicking the image:images/icons/save_part_in_mem.png[icons/save_part_in_mem_png] or save to a new library by clicking the image:images/icons/new_library.png[icons/new_library_png] or if you want to save this new symbol in an other existing library select the other library by clicking on the image:"
 "images/icons/library.png[icons/library_png] and save the new symbol."
-msgstr "单击图像更新当前库中的新符号：image:images/icons/save_part_in_mem.png[icons/save_part_in_mem_png] 或单击图像保存到新库：image:images/icons/new_library.png[icons/new_library_png] 或者 如果要将此新符号保存在其他现有库中，请单击图像选择其他库：image:images/icons/library.png[icons/library_png] 并保存新符号。"
+msgstr "单击图像更新当前库中的新符号：image:images/icons/save_part_in_mem.png[icons/save_part_in_mem_png]或单击图像保存到新库：image:images/icons/new_library.png[icons/new_library_png]或者 如果要将此新符号保存在其他现有库中，请单击图像选择其他库：image:images/icons/library.png[icons/library_png] 并保存新符号。"
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:413
@@ -7344,7 +7344,7 @@ msgstr "如果符号具有多个符号再存储，则必须选择一个表示来
 #. type: Plain text
 #: eeschema_library_editor.adoc:459
 msgid "To edit the alternate representation, click on the image:images/icons/morgan2.png[icons/morgan2_png].  Use the image:images/toolbar_libedit_alias.png[images/toolbar_libedit_part.png] shown below to select the unit you wish to edit."
-msgstr "要编辑备用表示，请单击 image:images/icons/morgan2.png[icons/morgan2_png] 。 使用下面显示的 image:images/toolbar_libedit_alias.png[images/toolbar_libedit_part.png] 选择要编辑的单位。"
+msgstr "要编辑备用表示，请单击 image:images/icons/morgan2.png[icons/morgan2_png]。  使用下面显示的 image:images/toolbar_libedit_alias.png[images/toolbar_libedit_part.png] 选择要编辑的单位。"
 
 #. type: Named 'alt' AttributeList argument for macro 'image'
 #: eeschema_library_editor.adoc:460
@@ -7468,7 +7468,7 @@ msgstr "图形文本元素"
 #. type: Plain text
 #: eeschema_library_editor.adoc:519
 msgid "The image:images/icons/text.png[icons/text.png] allows for the creation of graphical text. Graphical text is always readable, even when the symbol is mirrored. Please note that graphical text items are not fields."
-msgstr "image:images/icons/text.png[icons/text.png] 允许创建图形文本。 即使镜像符号，图形文本也始终可读。 请注意，图形文本项不是字段。"
+msgstr "这个 image:images/icons/text.png[icons/text.png] 允许创建图形文本。 即使镜像符号，图形文本也始终可读。 请注意，图形文本项不是字段。"
 
 #. type: Title ===
 #: eeschema_library_editor.adoc:521
@@ -7851,7 +7851,7 @@ msgstr ""
 msgid ""
 "The only exception to this is the pin's graphical type and name. This dependency was established to allow for easier pin creation and editing in most of the cases. This dependency can be disabled by toggling the image:images/icons/pin2pin.png[icons/pin2pin_png] on the main tool bar. This will allow you to create pins for each unit and "
 "representation completely independently."
-msgstr "唯一的例外是引脚的图形类型和名称。 建立此依赖关系以便在大多数情况下更容易创建和编辑引脚。 可以通过切换主工具栏上的 image:images/icons/pin2pin.png[icons/pin2pin_png]来禁用此依赖关系。 这将允许您完全独立地为每个单元和表示创建引脚。"
+msgstr "唯一的例外是引脚的图形类型和名称。 建立此依赖关系以便在大多数情况下更容易创建和编辑引脚。 可以通过切换主工具栏上的 image:images/icons/pin2pin.png[icons/pin2pin_png] 来禁用此依赖关系。 这将允许您完全独立地为每个单元和表示创建引脚。"
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:705
@@ -7920,7 +7920,7 @@ msgstr "images/eeschema_libedit_field_context_menu.png"
 #. type: Plain text
 #: eeschema_library_editor.adoc:753
 msgid "To edit undefined fields, add new fields, or delete optional fields image:images/icons/text.png[icons/text.png] on the main tool bar to open the field properties dialog shown below."
-msgstr "要编辑未定义的字段，添加新字段或删除主工具栏上的可选字段 image:images/icons/text.png[icons/text.png] ，以打开下面显示的字段属性对话框。"
+msgstr "要编辑未定义的字段，添加新字段或删除主工具栏上的可选字段image:images/icons/text.png[icons/text.png] ，以打开下面显示的字段属性对话框。"
 
 #. type: Plain text
 #: eeschema_library_editor.adoc:759
@@ -8258,187 +8258,6 @@ msgid ""
 "  </nets>\n"
 "</export>\n"
 msgstr ""
-"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
-"<export version=\"D\">\n"
-"  <design>\n"
-"    <source>F:\\kicad_aux\\netlist_test\\netlist_test.sch</source>\n"
-"    <date>29/08/2010 20:35:21</date>\n"
-"    <tool>eeschema (2010-08-28 BZR 2458)-unstable</tool>\n"
-"  </design>\n"
-"  <components>\n"
-"    <comp ref=\"P1\">\n"
-"      <value>CONN_4</value>\n"
-"      <libsource lib=\"conn\" part=\"CONN_4\"/>\n"
-"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
-"      <tstamp>4C6E2141</tstamp>\n"
-"    </comp>\n"
-"    <comp ref=\"U2\">\n"
-"      <value>74LS74</value>\n"
-"      <libsource lib=\"74xx\" part=\"74LS74\"/>\n"
-"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
-"      <tstamp>4C6E20BA</tstamp>\n"
-"    </comp>\n"
-"    <comp ref=\"U1\">\n"
-"      <value>74LS04</value>\n"
-"      <libsource lib=\"74xx\" part=\"74LS04\"/>\n"
-"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
-"      <tstamp>4C6E20A6</tstamp>\n"
-"    </comp>\n"
-"    <comp ref=\"C1\">\n"
-"      <value>CP</value>\n"
-"      <libsource lib=\"device\" part=\"CP\"/>\n"
-"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
-"      <tstamp>4C6E2094</tstamp>\n"
-"    </comp>\n"
-"    <comp ref=\"R1\">\n"
-"      <value>R</value>\n"
-"      <libsource lib=\"device\" part=\"R\"/>\n"
-"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
-"      <tstamp>4C6E208A</tstamp>\n"
-"    </comp>\n"
-"  </components>\n"
-"  <libparts>\n"
-"    <libpart lib=\"device\" part=\"C\">\n"
-"      <description>Condensateur non polarise</description>\n"
-"      <footprints>\n"
-"        <fp>SM*</fp>\n"
-"        <fp>C?</fp>\n"
-"        <fp>C1-1</fp>\n"
-"      </footprints>\n"
-"      <fields>\n"
-"        <field name=\"Reference\">C</field>\n"
-"        <field name=\"Value\">C</field>\n"
-"      </fields>\n"
-"      <pins>\n"
-"        <pin num=\"1\" name=\"~\" type=\"passive\"/>\n"
-"        <pin num=\"2\" name=\"~\" type=\"passive\"/>\n"
-"      </pins>\n"
-"    </libpart>\n"
-"    <libpart lib=\"device\" part=\"R\">\n"
-"      <description>Resistance</description>\n"
-"      <footprints>\n"
-"        <fp>R?</fp>\n"
-"        <fp>SM0603</fp>\n"
-"        <fp>SM0805</fp>\n"
-"        <fp>R?-*</fp>\n"
-"        <fp>SM1206</fp>\n"
-"      </footprints>\n"
-"      <fields>\n"
-"        <field name=\"Reference\">R</field>\n"
-"        <field name=\"Value\">R</field>\n"
-"      </fields>\n"
-"      <pins>\n"
-"        <pin num=\"1\" name=\"~\" type=\"passive\"/>\n"
-"        <pin num=\"2\" name=\"~\" type=\"passive\"/>\n"
-"      </pins>\n"
-"    </libpart>\n"
-"    <libpart lib=\"conn\" part=\"CONN_4\">\n"
-"      <description>Symbole general de connecteur</description>\n"
-"      <fields>\n"
-"        <field name=\"Reference\">P</field>\n"
-"        <field name=\"Value\">CONN_4</field>\n"
-"      </fields>\n"
-"      <pins>\n"
-"        <pin num=\"1\" name=\"P1\" type=\"passive\"/>\n"
-"        <pin num=\"2\" name=\"P2\" type=\"passive\"/>\n"
-"        <pin num=\"3\" name=\"P3\" type=\"passive\"/>\n"
-"        <pin num=\"4\" name=\"P4\" type=\"passive\"/>\n"
-"      </pins>\n"
-"    </libpart>\n"
-"    <libpart lib=\"74xx\" part=\"74LS04\">\n"
-"      <description>Hex Inverseur</description>\n"
-"      <fields>\n"
-"        <field name=\"Reference\">U</field>\n"
-"        <field name=\"Value\">74LS04</field>\n"
-"      </fields>\n"
-"      <pins>\n"
-"        <pin num=\"1\" name=\"~\" type=\"input\"/>\n"
-"        <pin num=\"2\" name=\"~\" type=\"output\"/>\n"
-"        <pin num=\"3\" name=\"~\" type=\"input\"/>\n"
-"        <pin num=\"4\" name=\"~\" type=\"output\"/>\n"
-"        <pin num=\"5\" name=\"~\" type=\"input\"/>\n"
-"        <pin num=\"6\" name=\"~\" type=\"output\"/>\n"
-"        <pin num=\"7\" name=\"GND\" type=\"power_in\"/>\n"
-"        <pin num=\"8\" name=\"~\" type=\"output\"/>\n"
-"        <pin num=\"9\" name=\"~\" type=\"input\"/>\n"
-"        <pin num=\"10\" name=\"~\" type=\"output\"/>\n"
-"        <pin num=\"11\" name=\"~\" type=\"input\"/>\n"
-"        <pin num=\"12\" name=\"~\" type=\"output\"/>\n"
-"        <pin num=\"13\" name=\"~\" type=\"input\"/>\n"
-"        <pin num=\"14\" name=\"VCC\" type=\"power_in\"/>\n"
-"      </pins>\n"
-"    </libpart>\n"
-"    <libpart lib=\"74xx\" part=\"74LS74\">\n"
-"      <description>Dual D FlipFlop, Set &amp; Reset</description>\n"
-"      <docs>74xx/74hc_hct74.pdf</docs>\n"
-"      <fields>\n"
-"        <field name=\"Reference\">U</field>\n"
-"        <field name=\"Value\">74LS74</field>\n"
-"      </fields>\n"
-"      <pins>\n"
-"        <pin num=\"1\" name=\"Cd\" type=\"input\"/>\n"
-"        <pin num=\"2\" name=\"D\" type=\"input\"/>\n"
-"        <pin num=\"3\" name=\"Cp\" type=\"input\"/>\n"
-"        <pin num=\"4\" name=\"Sd\" type=\"input\"/>\n"
-"        <pin num=\"5\" name=\"Q\" type=\"output\"/>\n"
-"        <pin num=\"6\" name=\"~Q\" type=\"output\"/>\n"
-"        <pin num=\"7\" name=\"GND\" type=\"power_in\"/>\n"
-"        <pin num=\"8\" name=\"~Q\" type=\"output\"/>\n"
-"        <pin num=\"9\" name=\"Q\" type=\"output\"/>\n"
-"        <pin num=\"10\" name=\"Sd\" type=\"input\"/>\n"
-"        <pin num=\"11\" name=\"Cp\" type=\"input\"/>\n"
-"        <pin num=\"12\" name=\"D\" type=\"input\"/>\n"
-"        <pin num=\"13\" name=\"Cd\" type=\"input\"/>\n"
-"        <pin num=\"14\" name=\"VCC\" type=\"power_in\"/>\n"
-"      </pins>\n"
-"    </libpart>\n"
-"  </libparts>\n"
-"  <libraries>\n"
-"    <library logical=\"device\">\n"
-"      <uri>F:\\kicad\\share\\library\\device.lib</uri>\n"
-"    </library>\n"
-"    <library logical=\"conn\">\n"
-"      <uri>F:\\kicad\\share\\library\\conn.lib</uri>\n"
-"    </library>\n"
-"    <library logical=\"74xx\">\n"
-"      <uri>F:\\kicad\\share\\library\\74xx.lib</uri>\n"
-"    </library>\n"
-"  </libraries>\n"
-"  <nets>\n"
-"    <net code=\"1\" name=\"GND\">\n"
-"      <node ref=\"U1\" pin=\"7\"/>\n"
-"      <node ref=\"C1\" pin=\"2\"/>\n"
-"      <node ref=\"U2\" pin=\"7\"/>\n"
-"      <node ref=\"P1\" pin=\"4\"/>\n"
-"    </net>\n"
-"    <net code=\"2\" name=\"VCC\">\n"
-"      <node ref=\"R1\" pin=\"1\"/>\n"
-"      <node ref=\"U1\" pin=\"14\"/>\n"
-"      <node ref=\"U2\" pin=\"4\"/>\n"
-"      <node ref=\"U2\" pin=\"1\"/>\n"
-"      <node ref=\"U2\" pin=\"14\"/>\n"
-"      <node ref=\"P1\" pin=\"1\"/>\n"
-"    </net>\n"
-"    <net code=\"3\" name=\"\">\n"
-"      <node ref=\"U2\" pin=\"6\"/>\n"
-"    </net>\n"
-"    <net code=\"4\" name=\"\">\n"
-"      <node ref=\"U1\" pin=\"2\"/>\n"
-"      <node ref=\"U2\" pin=\"3\"/>\n"
-"    </net>\n"
-"    <net code=\"5\" name=\"/SIG_OUT\">\n"
-"      <node ref=\"P1\" pin=\"2\"/>\n"
-"      <node ref=\"U2\" pin=\"5\"/>\n"
-"      <node ref=\"U2\" pin=\"2\"/>\n"
-"    </net>\n"
-"    <net code=\"6\" name=\"/CLOCK_IN\">\n"
-"      <node ref=\"R1\" pin=\"2\"/>\n"
-"      <node ref=\"C1\" pin=\"1\"/>\n"
-"      <node ref=\"U1\" pin=\"1\"/>\n"
-"      <node ref=\"P1\" pin=\"3\"/>\n"
-"    </net>\n"
-"  </nets>\n"
-"</export>\n"
 
 #. type: Title ===
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:215
@@ -8510,10 +8329,6 @@ msgid ""
 "    Copyright (C) 2010, SoftPLC Corporation.\n"
 "    GPL v2.\n"
 msgstr ""
-"<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n"
-"<!--XSL style sheet to Eeschema Generic Netlist Format to PADS netlist format\n"
-"    Copyright (C) 2010, SoftPLC Corporation.\n"
-"    GPL v2.\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:260 eeschema_creating_customized_netlists_and_bom_files.adoc:543
@@ -8523,9 +8338,6 @@ msgid ""
 "        https://lists.launchpad.net/kicad-developers/msg05157.html\n"
 "-->\n"
 msgstr ""
-"    How to use:\n"
-"        https://lists.launchpad.net/kicad-developers/msg05157.html\n"
-"-->\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:264 eeschema_creating_customized_netlists_and_bom_files.adoc:389 eeschema_creating_customized_netlists_and_bom_files.adoc:547
@@ -8535,9 +8347,6 @@ msgid ""
 "  <!ENTITY nl  \"&#xd;&#xa;\"> <!--new line CR, LF -->\n"
 "]>\n"
 msgstr ""
-"<!DOCTYPE xsl:stylesheet [\n"
-"  <!ENTITY nl  \"&#xd;&#xa;\"> <!--new line CR, LF -->\n"
-"]>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:267 eeschema_creating_customized_netlists_and_bom_files.adoc:392 eeschema_creating_customized_netlists_and_bom_files.adoc:550
@@ -8546,8 +8355,6 @@ msgid ""
 "<xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n"
 "<xsl:output method=\"text\" omit-xml-declaration=\"yes\" indent=\"no\"/>\n"
 msgstr ""
-"<xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n"
-"<xsl:output method=\"text\" omit-xml-declaration=\"yes\" indent=\"no\"/>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:275
@@ -8561,13 +8368,6 @@ msgid ""
 "    <xsl:text>*END*&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
-"<xsl:template match=\"/export\">\n"
-"    <xsl:text>*PADS-PCB*&nl;*PART*&nl;</xsl:text>\n"
-"    <xsl:apply-templates select=\"components/comp\"/>\n"
-"    <xsl:text>&nl;*NET*&nl;</xsl:text>\n"
-"    <xsl:apply-templates select=\"nets/net\"/>\n"
-"    <xsl:text>*END*&nl;</xsl:text>\n"
-"</xsl:template>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:291
@@ -8589,21 +8389,6 @@ msgid ""
 "    <xsl:text>&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
-"<!-- for each component -->\n"
-"<xsl:template match=\"comp\">\n"
-"    <xsl:text> </xsl:text>\n"
-"    <xsl:value-of select=\"@ref\"/>\n"
-"    <xsl:text> </xsl:text>\n"
-"    <xsl:choose>\n"
-"        <xsl:when test = \"footprint != '' \">\n"
-"            <xsl:apply-templates select=\"footprint\"/>\n"
-"        </xsl:when>\n"
-"        <xsl:otherwise>\n"
-"            <xsl:text>unknown</xsl:text>\n"
-"        </xsl:otherwise>\n"
-"    </xsl:choose>\n"
-"    <xsl:text>&nl;</xsl:text>\n"
-"</xsl:template>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:310
@@ -8628,24 +8413,6 @@ msgid ""
 "    </xsl:if>\n"
 "</xsl:template>\n"
 msgstr ""
-"<!-- for each net -->\n"
-"<xsl:template match=\"net\">\n"
-"    <!-- nets are output only if there is more than one pin in net -->\n"
-"    <xsl:if test=\"count(node)>1\">\n"
-"        <xsl:text>*SIGNAL* </xsl:text>\n"
-"        <xsl:choose>\n"
-"            <xsl:when test = \"@name != '' \">\n"
-"                <xsl:value-of select=\"@name\"/>\n"
-"            </xsl:when>\n"
-"            <xsl:otherwise>\n"
-"                <xsl:text>N-</xsl:text>\n"
-"                <xsl:value-of select=\"@code\"/>\n"
-"            </xsl:otherwise>\n"
-"        </xsl:choose>\n"
-"        <xsl:text>&nl;</xsl:text>\n"
-"        <xsl:apply-templates select=\"node\"/>\n"
-"    </xsl:if>\n"
-"</xsl:template>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:319
@@ -8660,20 +8427,12 @@ msgid ""
 "    <xsl:text>&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
-"<!-- for each node -->\n"
-"<xsl:template match=\"node\">\n"
-"    <xsl:text> </xsl:text>\n"
-"    <xsl:value-of select=\"@ref\"/>\n"
-"    <xsl:text>.</xsl:text>\n"
-"    <xsl:value-of select=\"@pin\"/>\n"
-"    <xsl:text>&nl;</xsl:text>\n"
-"</xsl:template>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:321 eeschema_creating_customized_netlists_and_bom_files.adoc:488 eeschema_creating_customized_netlists_and_bom_files.adoc:745
 #, no-wrap
 msgid "</xsl:stylesheet>\n"
-msgstr "</xsl:stylesheet>\n"
+msgstr ""
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:324
@@ -8717,38 +8476,6 @@ msgid ""
 "U1.1\n"
 "P1.3\n"
 msgstr ""
-"*PADS-PCB*\n"
-"*PART*\n"
-"P1 unknown\n"
-"U2 unknown\n"
-"U1 unknown\n"
-"C1 unknown\n"
-"R1 unknown\n"
-"*NET*\n"
-"*SIGNAL* GND\n"
-"U1.7\n"
-"C1.2\n"
-"U2.7\n"
-"P1.4\n"
-"*SIGNAL* VCC\n"
-"R1.1\n"
-"U1.14\n"
-"U2.4\n"
-"U2.1\n"
-"U2.14\n"
-"P1.1\n"
-"*SIGNAL* N-4\n"
-"U1.2\n"
-"U2.3\n"
-"*SIGNAL* /SIG_OUT\n"
-"P1.2\n"
-"U2.5\n"
-"U2.2\n"
-"*SIGNAL* /CLOCK_IN\n"
-"R1.2\n"
-"C1.1\n"
-"U1.1\n"
-"P1.3\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:360
@@ -8765,7 +8492,7 @@ msgstr "进行此转换的命令行是："
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:366
 #, no-wrap
 msgid "kicad\\\\bin\\\\xsltproc.exe -o test.net kicad\\\\bin\\\\plugins\\\\netlist_form_pads-pcb.xsl test.tmp\n"
-msgstr "kicad\\\\bin\\\\xsltproc.exe -o test.net kicad\\\\bin\\\\plugins\\\\netlist_form_pads-pcb.xsl test.tmp\n"
+msgstr ""
 
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:369
@@ -8793,11 +8520,6 @@ msgid ""
 "    Copyright (C) 2010, SoftPLC Corporation.\n"
 "    GPL v2.\n"
 msgstr ""
-"<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n"
-"<!--XSL style sheet to Eeschema Generic Netlist Format to CADSTAR netlist format\n"
-"    Copyright (C) 2010, Jean-Pierre Charras.\n"
-"    Copyright (C) 2010, SoftPLC Corporation.\n"
-"    GPL v2.\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:403
@@ -8814,16 +8536,6 @@ msgid ""
 "    <xsl:text>&nl;.END&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
-"<!-- Netlist header -->\n"
-"<xsl:template match=\"/export\">\n"
-"    <xsl:text>.HEA&nl;</xsl:text>\n"
-"    <xsl:apply-templates select=\"design/date\"/>  <!-- Generate line .TIM <time> -->\n"
-"    <xsl:apply-templates select=\"design/tool\"/>  <!-- Generate line .APP <eeschema version> -->\n"
-"    <xsl:apply-templates select=\"components/comp\"/>  <!-- Generate list of components -->\n"
-"    <xsl:text>&nl;&nl;</xsl:text>\n"
-"    <xsl:apply-templates select=\"nets/net\"/>          <!-- Generate list of nets and connections -->\n"
-"    <xsl:text>&nl;.END&nl;</xsl:text>\n"
-"</xsl:template>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:410
@@ -8836,12 +8548,6 @@ msgid ""
 "    <xsl:text>\"&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
-" <!-- Generate line .TIM 20/08/2010 10:45:33 -->\n"
-"<xsl:template match=\"tool\">\n"
-"    <xsl:text>.APP \"</xsl:text>\n"
-"    <xsl:apply-templates/>\n"
-"    <xsl:text>\"&nl;</xsl:text>\n"
-"</xsl:template>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:417
@@ -8854,12 +8560,6 @@ msgid ""
 "    <xsl:text>&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
-" <!-- Generate line .APP \"eeschema (2010-08-17 BZR 2450)-unstable\" -->\n"
-"<xsl:template match=\"date\">\n"
-"    <xsl:text>.TIM </xsl:text>\n"
-"    <xsl:apply-templates/>\n"
-"    <xsl:text>&nl;</xsl:text>\n"
-"</xsl:template>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:433
@@ -8881,21 +8581,6 @@ msgid ""
 "    <xsl:text>&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
-"<!-- for each component -->\n"
-"<xsl:template match=\"comp\">\n"
-"    <xsl:text>.ADD_COM </xsl:text>\n"
-"    <xsl:value-of select=\"@ref\"/>\n"
-"    <xsl:text> </xsl:text>\n"
-"    <xsl:choose>\n"
-"        <xsl:when test = \"value != '' \">\n"
-"            <xsl:text>\"</xsl:text> <xsl:apply-templates select=\"value\"/> <xsl:text>\"</xsl:text>\n"
-"        </xsl:when>\n"
-"        <xsl:otherwise>\n"
-"            <xsl:text>\"\"</xsl:text>\n"
-"        </xsl:otherwise>\n"
-"    </xsl:choose>\n"
-"    <xsl:text>&nl;</xsl:text>\n"
-"</xsl:template>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:456
@@ -8924,28 +8609,6 @@ msgid ""
 "    </xsl:if>\n"
 "</xsl:template>\n"
 msgstr ""
-"<!-- for each net -->\n"
-"<xsl:template match=\"net\">\n"
-"    <!-- nets are output only if there is more than one pin in net -->\n"
-"    <xsl:if test=\"count(node)>1\">\n"
-"    <xsl:variable name=\"netname\">\n"
-"        <xsl:text>\"</xsl:text>\n"
-"        <xsl:choose>\n"
-"            <xsl:when test = \"@name != '' \">\n"
-"                <xsl:value-of select=\"@name\"/>\n"
-"            </xsl:when>\n"
-"            <xsl:otherwise>\n"
-"                <xsl:text>N-</xsl:text>\n"
-"                <xsl:value-of select=\"@code\"/>\n"
-"        </xsl:otherwise>\n"
-"        </xsl:choose>\n"
-"        <xsl:text>\"&nl;</xsl:text>\n"
-"        </xsl:variable>\n"
-"        <xsl:apply-templates select=\"node\" mode=\"first\"/>\n"
-"        <xsl:value-of select=\"$netname\"/>\n"
-"        <xsl:apply-templates select=\"node\" mode=\"others\"/>\n"
-"    </xsl:if>\n"
-"</xsl:template>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:467
@@ -8962,28 +8625,6 @@ msgid ""
 "    </xsl:if>\n"
 "</xsl:template>\n"
 msgstr ""
-"<!-- for each net -->\n"
-"<xsl:template match=\"net\">\n"
-"    <!-- nets are output only if there is more than one pin in net -->\n"
-"    <xsl:if test=\"count(node)>1\">\n"
-"    <xsl:variable name=\"netname\">\n"
-"        <xsl:text>\"</xsl:text>\n"
-"        <xsl:choose>\n"
-"            <xsl:when test = \"@name != '' \">\n"
-"                <xsl:value-of select=\"@name\"/>\n"
-"            </xsl:when>\n"
-"            <xsl:otherwise>\n"
-"                <xsl:text>N-</xsl:text>\n"
-"                <xsl:value-of select=\"@code\"/>\n"
-"        </xsl:otherwise>\n"
-"        </xsl:choose>\n"
-"        <xsl:text>\"&nl;</xsl:text>\n"
-"        </xsl:variable>\n"
-"        <xsl:apply-templates select=\"node\" mode=\"first\"/>\n"
-"        <xsl:value-of select=\"$netname\"/>\n"
-"        <xsl:apply-templates select=\"node\" mode=\"others\"/>\n"
-"    </xsl:if>\n"
-"</xsl:template>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:486
@@ -9008,24 +8649,6 @@ msgid ""
 "    </xsl:if>\n"
 "</xsl:template>\n"
 msgstr ""
-"<xsl:template match=\"node\" mode=\"others\">\n"
-"    <xsl:choose>\n"
-"        <xsl:when test='position()=1'>\n"
-"        </xsl:when>\n"
-"        <xsl:when test='position()=2'>\n"
-"           <xsl:text>.TER     </xsl:text>\n"
-"        </xsl:when>\n"
-"        <xsl:otherwise>\n"
-"           <xsl:text>         </xsl:text>\n"
-"        </xsl:otherwise>\n"
-"    </xsl:choose>\n"
-"    <xsl:if test=\"position()>1\">\n"
-"        <xsl:value-of select=\"@ref\"/>\n"
-"        <xsl:text>.</xsl:text>\n"
-"        <xsl:value-of select=\"@pin\"/>\n"
-"        <xsl:text>&nl;</xsl:text>\n"
-"    </xsl:if>\n"
-"</xsl:template>\n"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:491
@@ -9045,14 +8668,6 @@ msgid ""
 ".ADD_COM C1 \"CP\"\n"
 ".ADD_COM R1 \"R\"\n"
 msgstr ""
-".HEA\n"
-".TIM 21/08/2010 08:12:08\n"
-".APP \"eeschema (2010-08-09 BZR 2439)-unstable\"\n"
-".ADD_COM P1 \"CONN_4\"\n"
-".ADD_COM U2 \"74LS74\"\n"
-".ADD_COM U1 \"74LS04\"\n"
-".ADD_COM C1 \"CP\"\n"
-".ADD_COM R1 \"R\"\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:522
@@ -9078,31 +8693,12 @@ msgid ""
 "         U1.1\n"
 "         P1.3\n"
 msgstr ""
-".ADD_TER U1.7 \"GND\"\n"
-".TER     C1.2\n"
-"         U2.7\n"
-"         P1.4\n"
-".ADD_TER R1.1 \"VCC\"\n"
-".TER     U1.14\n"
-"         U2.4\n"
-"         U2.1\n"
-"         U2.14\n"
-"         P1.1\n"
-".ADD_TER U1.2 \"N-4\"\n"
-".TER     U2.3\n"
-".ADD_TER P1.2 \"/SIG_OUT\"\n"
-".TER     U2.5\n"
-"         U2.2\n"
-".ADD_TER R1.2 \"/CLOCK_IN\"\n"
-".TER     C1.1\n"
-"         U1.1\n"
-"         P1.3\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:524
 #, no-wrap
 msgid ".END\n"
-msgstr ".END\n"
+msgstr ""
 
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:527
@@ -9129,10 +8725,6 @@ msgid ""
 "    Copyright (C) 2010, SoftPLC Corporation.\n"
 "    GPL v2.\n"
 msgstr ""
-"<?xml version=\"1.0\" encoding=\"ISO-8859-1\"?>\n"
-"<!--XSL style sheet to Eeschema Generic Netlist Format to CADSTAR netlist format\n"
-"    Copyright (C) 2010, SoftPLC Corporation.\n"
-"    GPL v2.\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:563
@@ -9151,18 +8743,6 @@ msgid ""
 "<xsl:apply-templates select=\"design/tool\"/>\n"
 "<xsl:text>}&nl;</xsl:text>\n"
 msgstr ""
-"<!--\n"
-"    Netlist header\n"
-"    Creates the entire netlist\n"
-"    (can be seen as equivalent to main function in C\n"
-"-->\n"
-"<xsl:template match=\"/export\">\n"
-"    <xsl:text>( { Eeschema Netlist Version 1.1  </xsl:text>\n"
-"    <!-- Generate line .TIM <time> -->\n"
-"<xsl:apply-templates select=\"design/date\"/>\n"
-"<!-- Generate line eeschema version ... -->\n"
-"<xsl:apply-templates select=\"design/tool\"/>\n"
-"<xsl:text>}&nl;</xsl:text>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:566
@@ -9171,8 +8751,6 @@ msgid ""
 "<!-- Generate the list of components -->\n"
 "<xsl:apply-templates select=\"components/comp\"/>  <!-- Generate list of components -->\n"
 msgstr ""
-"<!-- Generate the list of components -->\n"
-"<xsl:apply-templates select=\"components/comp\"/>  <!-- Generate list of components -->\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:570
@@ -9182,9 +8760,6 @@ msgid ""
 "<xsl:text>)&nl;*&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
-"<!-- end of file -->\n"
-"<xsl:text>)&nl;*&nl;</xsl:text>\n"
-"</xsl:template>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:577
@@ -9197,12 +8772,6 @@ msgid ""
 "    <xsl:apply-templates/>\n"
 "</xsl:template>\n"
 msgstr ""
-"<!--\n"
-"    Generate id in header like \"eeschema (2010-08-17 BZR 2450)-unstable\"\n"
-"-->\n"
-"<xsl:template match=\"tool\">\n"
-"    <xsl:apply-templates/>\n"
-"</xsl:template>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:585
@@ -9216,13 +8785,6 @@ msgid ""
 "    <xsl:text>&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
-"<!--\n"
-"    Generate date in header like \"20/08/2010 10:45:33\"\n"
-"-->\n"
-"<xsl:template match=\"date\">\n"
-"    <xsl:apply-templates/>\n"
-"    <xsl:text>&nl;</xsl:text>\n"
-"</xsl:template>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:632
@@ -9275,52 +8837,6 @@ msgid ""
 "    <xsl:text> )&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
-"<!--\n"
-"    This template read each component\n"
-"    (path = /export/components/comp)\n"
-"    creates lines:\n"
-"     ( 3EBF7DBD $noname U1 74LS125\n"
-"      ... pin list ...\n"
-"      )\n"
-"    and calls \"create_pin_list\" template to build the pin list\n"
-"-->\n"
-"<xsl:template match=\"comp\">\n"
-"    <xsl:text> ( </xsl:text>\n"
-"    <xsl:choose>\n"
-"        <xsl:when test = \"tstamp != '' \">\n"
-"            <xsl:apply-templates select=\"tstamp\"/>\n"
-"        </xsl:when>\n"
-"        <xsl:otherwise>\n"
-"            <xsl:text>00000000</xsl:text>\n"
-"        </xsl:otherwise>\n"
-"    </xsl:choose>\n"
-"    <xsl:text> </xsl:text>\n"
-"    <xsl:choose>\n"
-"        <xsl:when test = \"footprint != '' \">\n"
-"            <xsl:apply-templates select=\"footprint\"/>\n"
-"        </xsl:when>\n"
-"        <xsl:otherwise>\n"
-"            <xsl:text>$noname</xsl:text>\n"
-"        </xsl:otherwise>\n"
-"    </xsl:choose>\n"
-"    <xsl:text> </xsl:text>\n"
-"    <xsl:value-of select=\"@ref\"/>\n"
-"    <xsl:text> </xsl:text>\n"
-"    <xsl:choose>\n"
-"        <xsl:when test = \"value != '' \">\n"
-"            <xsl:apply-templates select=\"value\"/>\n"
-"        </xsl:when>\n"
-"        <xsl:otherwise>\n"
-"            <xsl:text>\"~\"</xsl:text>\n"
-"        </xsl:otherwise>\n"
-"    </xsl:choose>\n"
-"    <xsl:text>&nl;</xsl:text>\n"
-"    <xsl:call-template name=\"Search_pin_list\" >\n"
-"        <xsl:with-param name=\"cmplib_id\" select=\"libsource/@part\"/>\n"
-"        <xsl:with-param name=\"cmp_ref\" select=\"@ref\"/>\n"
-"    </xsl:call-template>\n"
-"    <xsl:text> )&nl;</xsl:text>\n"
-"</xsl:template>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:653
@@ -9347,26 +8863,6 @@ msgid ""
 "        </xsl:for-each>\n"
 "</xsl:template>\n"
 msgstr ""
-"<!--\n"
-"    This template search for a given lib component description in list\n"
-"    lib component descriptions are in /export/libparts,\n"
-"    and each description start at ./libpart\n"
-"    We search here for the list of pins of the given component\n"
-"    This template has 2 parameters:\n"
-"        \"cmplib_id\" (reference in libparts)\n"
-"        \"cmp_ref\"   (schematic reference of the given component)\n"
-"-->\n"
-"<xsl:template name=\"Search_pin_list\" >\n"
-"    <xsl:param name=\"cmplib_id\" select=\"0\" />\n"
-"    <xsl:param name=\"cmp_ref\" select=\"0\" />\n"
-"        <xsl:for-each select=\"/export/libparts/libpart\">\n"
-"            <xsl:if test = \"@part = $cmplib_id \">\n"
-"                <xsl:apply-templates name=\"build_pin_list\" select=\"pins/pin\">\n"
-"                    <xsl:with-param name=\"cmp_ref\" select=\"$cmp_ref\"/>\n"
-"                </xsl:apply-templates>\n"
-"            </xsl:if>\n"
-"        </xsl:for-each>\n"
-"</xsl:template>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:670
@@ -9388,21 +8884,6 @@ msgid ""
 "<xsl:template name=\"build_pin_list\" match=\"pin\">\n"
 "    <xsl:param name=\"cmp_ref\" select=\"0\" />\n"
 msgstr ""
-"<!--\n"
-"    This template writes the pin list of a component\n"
-"    from the pin list of the library description\n"
-"    The pin list from library description is something like\n"
-"          <pins>\n"
-"            <pin num=\"1\" type=\"passive\"/>\n"
-"            <pin num=\"2\" type=\"passive\"/>\n"
-"          </pins>\n"
-"    Output pin list is ( <pin num> <net name> )\n"
-"    something like\n"
-"            ( 1 VCC )\n"
-"            ( 2 GND )\n"
-"-->\n"
-"<xsl:template name=\"build_pin_list\" match=\"pin\">\n"
-"    <xsl:param name=\"cmp_ref\" select=\"0\" />\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:675
@@ -9413,10 +8894,6 @@ msgid ""
 "    <xsl:value-of select=\"@num\"/>\n"
 "    <xsl:text> </xsl:text>\n"
 msgstr ""
-"    <!-- write pin numner and separator -->\n"
-"    <xsl:text>  ( </xsl:text>\n"
-"    <xsl:value-of select=\"@num\"/>\n"
-"    <xsl:text> </xsl:text>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:690
@@ -9437,20 +8914,6 @@ msgid ""
 "        </xsl:apply-templates>\n"
 "    </xsl:for-each>\n"
 msgstr ""
-"    <!-- search net name in nets section and write it: -->\n"
-"    <xsl:variable name=\"pinNum\" select=\"@num\" />\n"
-"    <xsl:for-each select=\"/export/nets/net\">\n"
-"        <!-- net name is output only if there is more than one pin in net\n"
-"             else use \"?\" as net name, so count items in this net\n"
-"        -->\n"
-"        <xsl:variable name=\"pinCnt\" select=\"count(node)\" />\n"
-"        <xsl:apply-templates name=\"Search_pin_netname\" select=\"node\">\n"
-"            <xsl:with-param name=\"cmp_ref\" select=\"$cmp_ref\"/>\n"
-"            <xsl:with-param name=\"pin_cnt_in_net\" select=\"$pinCnt\"/>\n"
-"            <xsl:with-param name=\"pin_num\"> <xsl:value-of select=\"$pinNum\"/>\n"
-"            </xsl:with-param>\n"
-"        </xsl:apply-templates>\n"
-"    </xsl:for-each>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:694
@@ -9460,9 +8923,6 @@ msgid ""
 "    <xsl:text> )&nl;</xsl:text>\n"
 "</xsl:template>\n"
 msgstr ""
-"    <!-- close line -->\n"
-"    <xsl:text> )&nl;</xsl:text>\n"
-"</xsl:template>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:712
@@ -9486,23 +8946,6 @@ msgid ""
 "        \"pin_num\"   (pin number)\n"
 "-->\n"
 msgstr ""
-"<!--\n"
-"    This template writes the pin netname of a given pin of a given component\n"
-"    from the nets list\n"
-"    The nets list description is something like\n"
-"      <nets>\n"
-"        <net code=\"1\" name=\"GND\">\n"
-"          <node ref=\"J1\" pin=\"20\"/>\n"
-"              <node ref=\"C2\" pin=\"2\"/>\n"
-"        </net>\n"
-"        <net code=\"2\" name=\"\">\n"
-"          <node ref=\"U2\" pin=\"11\"/>\n"
-"        </net>\n"
-"    </nets>\n"
-"    This template has 2 parameters:\n"
-"        \"cmp_ref\"   (schematic reference of the given component)\n"
-"        \"pin_num\"   (pin number)\n"
-"-->\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:717
@@ -9513,10 +8956,6 @@ msgid ""
 "    <xsl:param name=\"pin_num\" select=\"0\" />\n"
 "    <xsl:param name=\"pin_cnt_in_net\" select=\"0\" />\n"
 msgstr ""
-"<xsl:template name=\"Search_pin_netname\" match=\"node\">\n"
-"    <xsl:param name=\"cmp_ref\" select=\"0\" />\n"
-"    <xsl:param name=\"pin_num\" select=\"0\" />\n"
-"    <xsl:param name=\"pin_cnt_in_net\" select=\"0\" />\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:741
@@ -9546,35 +8985,12 @@ msgid ""
 "        </xsl:if>\n"
 "    </xsl:if>\n"
 msgstr ""
-"    <xsl:if test = \"@ref = $cmp_ref \">\n"
-"        <xsl:if test = \"@pin = $pin_num\">\n"
-"        <!-- net name is output only if there is more than one pin in net\n"
-"             else use \"?\" as net name\n"
-"        -->\n"
-"            <xsl:if test = \"$pin_cnt_in_net>1\">\n"
-"                <xsl:choose>\n"
-"                    <!-- if a net has a name, use it,\n"
-"                        else build a name from its net code\n"
-"                    -->\n"
-"                    <xsl:when test = \"../@name != '' \">\n"
-"                        <xsl:value-of select=\"../@name\"/>\n"
-"                    </xsl:when>\n"
-"                    <xsl:otherwise>\n"
-"                        <xsl:text>$N-0</xsl:text><xsl:value-of select=\"../@code\"/>\n"
-"                    </xsl:otherwise>\n"
-"                </xsl:choose>\n"
-"            </xsl:if>\n"
-"            <xsl:if test = \"$pin_cnt_in_net &lt;2\">\n"
-"                <xsl:text>?</xsl:text>\n"
-"            </xsl:if>\n"
-"        </xsl:if>\n"
-"    </xsl:if>\n"
 
 #. type: delimited block -
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:743
 #, no-wrap
 msgid "</xsl:template>\n"
-msgstr "</xsl:template>\n"
+msgstr ""
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:748
@@ -9620,40 +9036,6 @@ msgid ""
 ")\n"
 "*\n"
 msgstr ""
-"( { Eeschema Netlist Version 1.1  29/08/2010 21:07:51\n"
-"eeschema (2010-08-28 BZR 2458)-unstable}\n"
-" ( 4C6E2141 $noname P1 CONN_4\n"
-"  (  1 VCC )\n"
-"  (  2 /SIG_OUT )\n"
-"  (  3 /CLOCK_IN )\n"
-"  (  4 GND )\n"
-" )\n"
-" ( 4C6E20BA $noname U2 74LS74\n"
-"  (  1 VCC )\n"
-"  (  2 /SIG_OUT )\n"
-"  (  3 N-04 )\n"
-"  (  4 VCC )\n"
-"  (  5 /SIG_OUT )\n"
-"  (  6 ? )\n"
-"  (  7 GND )\n"
-"  (  14 VCC )\n"
-" )\n"
-" ( 4C6E20A6 $noname U1 74LS04\n"
-"  (  1 /CLOCK_IN )\n"
-"  (  2 N-04 )\n"
-"  (  7 GND )\n"
-"  (  14 VCC )\n"
-" )\n"
-" ( 4C6E2094 $noname C1 CP\n"
-"  (  1 /CLOCK_IN )\n"
-"  (  2 GND )\n"
-" )\n"
-" ( 4C6E208A $noname R1 R\n"
-"  (  1 VCC )\n"
-"  (  2 /CLOCK_IN )\n"
-" )\n"
-")\n"
-"*\n"
 
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:787
@@ -9843,7 +9225,7 @@ msgstr "在 Windows 下："
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:867
 #, no-wrap
 msgid "*f:/kicad/bin/xsltproc.exe -o \"%O\" f:/kicad/bin/plugins/netlist_form_pads-pcb.xsl \"%I\"*\n"
-msgstr "*f:/kicad/bin/xsltproc.exe -o \"%O\" f:/kicad/bin/plugins/netlist_form_pads-pcb.xsl \"%I\"*\n"
+msgstr ""
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:869 eeschema_creating_customized_netlists_and_bom_files.adoc:903
@@ -9854,7 +9236,7 @@ msgstr "在 Linux 下："
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:871
 #, no-wrap
 msgid "*xsltproc -o \"%O\" /usr/local/kicad/bin/plugins/netlist_form_pads-pcb.xsl \"%I\"*\n"
-msgstr "*xsltproc -o \"%O\" /usr/local/kicad/bin/plugins/netlist_form_pads-pcb.xsl \"%I\"*\n"
+msgstr ""
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:874
@@ -10013,81 +9395,6 @@ msgid ""
 "  </nets>\n"
 "</export>\n"
 msgstr ""
-"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
-"<export version=\"D\">\n"
-"  <design>\n"
-"    <source>F:\\kicad_aux\\netlist_test\\netlist_test.sch</source>\n"
-"    <date>29/08/2010 21:07:51</date>\n"
-"    <tool>eeschema (2010-08-28 BZR 2458)-unstable</tool>\n"
-"  </design>\n"
-"  <components>\n"
-"    <comp ref=\"P1\">\n"
-"      <value>CONN_4</value>\n"
-"      <libsource lib=\"conn\" part=\"CONN_4\"/>\n"
-"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
-"      <tstamp>4C6E2141</tstamp>\n"
-"    </comp>\n"
-"    <comp ref=\"U2\">\n"
-"      <value>74LS74</value>\n"
-"      <libsource lib=\"74xx\" part=\"74LS74\"/>\n"
-"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
-"      <tstamp>4C6E20BA</tstamp>\n"
-"    </comp>\n"
-"    <comp ref=\"U1\">\n"
-"      <value>74LS04</value>\n"
-"      <libsource lib=\"74xx\" part=\"74LS04\"/>\n"
-"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
-"      <tstamp>4C6E20A6</tstamp>\n"
-"    </comp>\n"
-"    <comp ref=\"C1\">\n"
-"      <value>CP</value>\n"
-"      <libsource lib=\"device\" part=\"CP\"/>\n"
-"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
-"      <tstamp>4C6E2094</tstamp>\n"
-"    <comp ref=\"R1\">\n"
-"      <value>R</value>\n"
-"      <libsource lib=\"device\" part=\"R\"/>\n"
-"      <sheetpath names=\"/\" tstamps=\"/\"/>\n"
-"      <tstamp>4C6E208A</tstamp>\n"
-"    </comp>\n"
-"  </components>\n"
-"  <libparts/>\n"
-"  <libraries/>\n"
-"  <nets>\n"
-"    <net code=\"1\" name=\"GND\">\n"
-"      <node ref=\"U1\" pin=\"7\"/>\n"
-"      <node ref=\"C1\" pin=\"2\"/>\n"
-"      <node ref=\"U2\" pin=\"7\"/>\n"
-"      <node ref=\"P1\" pin=\"4\"/>\n"
-"    </net>\n"
-"    <net code=\"2\" name=\"VCC\">\n"
-"      <node ref=\"R1\" pin=\"1\"/>\n"
-"      <node ref=\"U1\" pin=\"14\"/>\n"
-"      <node ref=\"U2\" pin=\"4\"/>\n"
-"      <node ref=\"U2\" pin=\"1\"/>\n"
-"      <node ref=\"U2\" pin=\"14\"/>\n"
-"      <node ref=\"P1\" pin=\"1\"/>\n"
-"    </net>\n"
-"    <net code=\"3\" name=\"\">\n"
-"      <node ref=\"U2\" pin=\"6\"/>\n"
-"    </net>\n"
-"    <net code=\"4\" name=\"\">\n"
-"      <node ref=\"U1\" pin=\"2\"/>\n"
-"      <node ref=\"U2\" pin=\"3\"/>\n"
-"    </net>\n"
-"    <net code=\"5\" name=\"/SIG_OUT\">\n"
-"      <node ref=\"P1\" pin=\"2\"/>\n"
-"      <node ref=\"U2\" pin=\"5\"/>\n"
-"      <node ref=\"U2\" pin=\"2\"/>\n"
-"    </net>\n"
-"    <net code=\"6\" name=\"/CLOCK_IN\">\n"
-"      <node ref=\"R1\" pin=\"2\"/>\n"
-"      <node ref=\"C1\" pin=\"1\"/>\n"
-"      <node ref=\"U1\" pin=\"1\"/>\n"
-"      <node ref=\"P1\" pin=\"3\"/>\n"
-"    </net>\n"
-"  </nets>\n"
-"</export>\n"
 
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:992
@@ -10138,9 +9445,6 @@ msgid ""
 "...\n"
 "</export>\n"
 msgstr ""
-"<export version=\"D\">\n"
-"...\n"
-"</export>\n"
 
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1011
@@ -10163,11 +9467,6 @@ msgid ""
 "<tool>eeschema (2010-08-09 BZR 2439)-unstable</tool>\n"
 "</design>\n"
 msgstr ""
-"<design>\n"
-"<source>F:\\kicad_aux\\netlist_test\\netlist_test.sch</source>\n"
-"<date>21/08/2010 08:12:08</date>\n"
-"<tool>eeschema (2010-08-09 BZR 2439)-unstable</tool>\n"
-"</design>\n"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1024
@@ -10198,14 +9497,6 @@ msgid ""
 "</comp>\n"
 "</components>\n"
 msgstr ""
-"<components>\n"
-"<comp ref=\"P1\">\n"
-"<value>CONN_4</value>\n"
-"<libsource lib=\"conn\" part=\"CONN_4\"/>\n"
-"<sheetpath names=\"/\" tstamps=\"/\"/>\n"
-"<tstamp>4C6E2141</tstamp>\n"
-"</comp>\n"
-"</components>\n"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1043
@@ -10223,12 +9514,6 @@ msgid ""
 "<tstamp>4C6E2141</tstamp>\n"
 "</comp>\n"
 msgstr ""
-"<comp ref=\"P1\">\n"
-"<value>CONN_4</value>\n"
-"<libsource lib=\"conn\" part=\"CONN_4\"/>\n"
-"<sheetpath names=\"/\" tstamps=\"/\"/>\n"
-"<tstamp>4C6E2141</tstamp>\n"
-"</comp>\n"
 
 #. type: Table
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1065
@@ -10327,23 +9612,6 @@ msgid ""
 "</libpart>\n"
 "</libparts>\n"
 msgstr ""
-"<libparts>\n"
-"<libpart lib=\"device\" part=\"CP\">\n"
-"  <description>Condensateur polarise</description>\n"
-"  <footprints>\n"
-"    <fp>CP*</fp>\n"
-"    <fp>SM*</fp>\n"
-"  </footprints>\n"
-"  <fields>\n"
-"    <field name=\"Reference\">C</field>\n"
-"    <field name=\"Valeur\">CP</field>\n"
-"  </fields>\n"
-"  <pins>\n"
-"    <pin num=\"1\" name=\"1\" type=\"passive\"/>\n"
-"    <pin num=\"2\" name=\"2\" type=\"passive\"/>\n"
-"  </pins>\n"
-"</libpart>\n"
-"</libparts>\n"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1119
@@ -10402,14 +9670,6 @@ msgid ""
 "  </library>\n"
 "</libraries>\n"
 msgstr ""
-"<libraries>\n"
-"  <library logical=\"device\">\n"
-"    <uri>F:\\kicad\\share\\library\\device.lib</uri>\n"
-"  </library>\n"
-"  <library logical=\"conn\">\n"
-"    <uri>F:\\kicad\\share\\library\\conn.lib</uri>\n"
-"  </library>\n"
-"</libraries>\n"
 
 #. type: Title ====
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1153
@@ -10443,22 +9703,6 @@ msgid ""
 "  </net>\n"
 "</nets>\n"
 msgstr ""
-"<nets>\n"
-"  <net code=\"1\" name=\"GND\">\n"
-"    <node ref=\"U1\" pin=\"7\"/>\n"
-"    <node ref=\"C1\" pin=\"2\"/>\n"
-"    <node ref=\"U2\" pin=\"7\"/>\n"
-"    <node ref=\"P1\" pin=\"4\"/>\n"
-"  </net>\n"
-"  <net code=\"2\" name=\"VCC\">\n"
-"    <node ref=\"R1\" pin=\"1\"/>\n"
-"    <node ref=\"U1\" pin=\"14\"/>\n"
-"    <node ref=\"U2\" pin=\"4\"/>\n"
-"    <node ref=\"U2\" pin=\"1\"/>\n"
-"    <node ref=\"U2\" pin=\"14\"/>\n"
-"    <node ref=\"P1\" pin=\"1\"/>\n"
-"  </net>\n"
-"</nets>\n"
 
 #. type: Plain text
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1178
@@ -10481,12 +9725,6 @@ msgid ""
 "  <node ref=\"P1\" pin=\"4\"/>\n"
 "</net>\n"
 msgstr ""
-"<net code=\"1\" name=\"GND\">\n"
-"  <node ref=\"U1\" pin=\"7\"/>\n"
-"  <node ref=\"C1\" pin=\"2\"/>\n"
-"  <node ref=\"U2\" pin=\"7\"/>\n"
-"  <node ref=\"P1\" pin=\"4\"/>\n"
-"</net>\n"
 
 #. type: Table
 #: eeschema_creating_customized_netlists_and_bom_files.adoc:1195
